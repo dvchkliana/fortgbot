@@ -143,7 +143,7 @@ db = load_db()
 
 TFLITE_PATH = "cat_dog_model.tflite"
 TFLITE_URL = os.getenv("CAT_DOGS_TFLITE_URL")
-_interpreter_ = None
+_interpreter = None
 _input_details = None
 _output_details = None
 
